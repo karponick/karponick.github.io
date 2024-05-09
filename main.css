@@ -67,5 +67,19 @@ p {
 
 .pdf {
     width: 60%;
-    height: 500px;
+    height: 800px;
+}
+
+.portfolio {
+    border: 2px solid black;
+    border-radius: 30px;
+    width: 30%;
+    height: 100px;
+    margin: auto;
+    font-size: 20px;
+}
+
+.port-img {
+    width: 500px;
+    height: 150px;
 }
