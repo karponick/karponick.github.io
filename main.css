@@ -7,9 +7,9 @@ body {
     background: dimgray;
     text-align: center;
     height: 100vh;
-    margin: 6vh 0 0 0;
     font-family: monospace;
     padding: 0;
+    margin: 0;
 }
 
 a {
@@ -18,18 +18,12 @@ a {
 }
  a:visited, a:hover, a:active{color: black;}
 
-img {
-    margin-top: 10px;
-    width: 50px;
-}
-
 h1 {
     margin: auto;
-    /* border: 5px double black; */
     border-radius: 30px;
     padding: 20px;
-    width: fit-content;
-    font-size: 70px;
+    width: auto;
+    font-size: 7vh;
 }
 
 p {
@@ -39,22 +33,28 @@ p {
     padding-bottom: 50px;
 }
 
+ul {
+    list-style: none;
+    max-width: 90%;
+    padding-left: 0;
+    font-size: 1.6vw;
+    margin: 30% 10%;
+}
+
 .main {
     background-color: whitesmoke;
     width: 75%;
     border-radius: 30px;
-    padding: 3% 0% 3%;
-    margin: auto auto 6vh auto;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin: 5% auto 5% auto;
 }
 
 .navigation {
-    margin: 50px;
-    float: left;
-    left: 0;
-    top: 50px;
     position: fixed;
     -webkit-filter: invert(100%);
     filter: invert(100%);
+    max-width: 12%;
 }
 
 .footer {
@@ -62,12 +62,13 @@ p {
     color: black;
     -webkit-filter: invert(100%);
     filter: invert(100%);
-    padding: 50px;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
 }
 
 .pdf {
     width: 60%;
-    height: 800px;
+    height: 80vh;
 }
 
 .portfolio {
@@ -80,6 +81,17 @@ p {
 }
 
 .port-img {
-    width: 500px;
-    height: 150px;
+    max-width: 80%;
+    width: auto;
+    height: auto;
+}
+
+.nav-img {
+    margin-top: 10px;
+    max-width: 30%;
+}
+
+.link-img {
+    max-width: 5%;
+    min-width: 40px;
 }
